@@ -1,0 +1,24 @@
+#端口号
+server:
+  port: 9999
+#自定义名称
+spring:
+  application:
+    name: springbootshiro
+#数据库连接
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: lanxin
+    driver-class-name: com.mysql.jdbc.Driver
+#配置Redis
+  redis:
+    host: localhost
+    port: 6379
+
+#配置mybatisplus的信息
+mybatis-plus:
+  mapper-locations: classpath:mappers/*.xml
+  config-location: classpath:configuration.xml
+
+
