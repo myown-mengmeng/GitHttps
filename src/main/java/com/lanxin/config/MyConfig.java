@@ -20,6 +20,7 @@ import java.util.Map;
 @Component
 public class MyConfig {
 
+    private String username;
 
     @Value("${spring.redis.host}")
     private String host;
