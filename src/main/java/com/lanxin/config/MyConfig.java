@@ -22,6 +22,8 @@ public class MyConfig {
 
     private String username;
 
+    private String password;
+
     @Value("${spring.redis.host}")
     private String host;
 
